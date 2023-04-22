@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+:root {
+    --primaryColor: rgb(0, 102, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bg {
+    background-color: var(--primaryColor);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+
+/* navbar */
+#navbar {
+    background-color: black;
+    color: var(--primary-color);
+    font-size: 20px;
+    position: sticky;
+}
+
+.nav-item {
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.nav-item a:hover {
+    color: cyan !important;
+}
+
+#navbar-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+
+
+
+
+/* home */
+#home {
+    background-image: url('images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.home-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 25vmin 15vmin;
+    height: 100%;
+    text-align: center;
+    font-size: 10vmin;
+    font-weight: bold;
+    line-height: 1.2;
+    text-shadow: 2px 2px crimson;
+}
+
+.home-container span {
+    color: yellow;
+}
+
+#home button {
+    width: fit-content;
+}
+
+
+
+
+
+
+/* about */
+.about-container {
+    margin: 50px 0;
+}
+
+.about-title {
+    color: var(--primaryColor);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+
+
+
+/* services */
+
+.card {
+    box-shadow: 0px 2px 10px lightgray,
+        0px -2px 10px lightgray;
+    width: 20rem;
+    margin: 10px 20px;
+    padding: 0;
+}
+
+.card-text {
+    color: gray;
+}
+
+.card-img-top {
+    height: 240px;
+}
+
+.card-title {
+    color: var(--primaryColor);
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.component-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.component-heading span {
+    font-weight: bold;
+    font-size: 1.8em;
+    border-bottom: 3px solid;
+    padding: 10px;
+}
+
+
+
+
+
+/* contact */
+#contact {
+    box-shadow: 1px 1px 20px lightgray,
+        -1px -1px 10px lightgray;
+    margin: 20px 10px;
+    padding: 20px;
+}
+
+#contact input {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+#contact textarea {
+    border: 1px solid gray;
+    border-radius: 0;
+    resize: none;
+}
+
+#contact button {
+    background-color: var(--primaryColor);
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+}
+
+#contact button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+}
+
+
+
+
+
+/* records */
+#records {
+    background-color: var(--primaryColor);
+    padding: 50px;
+}
+
+.record {
+    margin: 20px;
+}
+
+.records-icon {
+    font-size: 50px;
+}
+
+
+
+
+
+/* footer */
+#footer {
+    background-color: black;
+    color: white;
+    padding: 5vh;
+}
+
+#footer a {
+    text-decoration: none;
+    color: cyan;
+}
+
+#footer a i {
+    font-size: 1.5em;
+    margin-right: 15px;
+}
+
+#footer a:hover {
+    color: var(--primaryColor);
+}
